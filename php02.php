@@ -1,9 +1,9 @@
 <?php
 
-$name = "yuka";
+$name = "hoshiyuka";
 
-if($name = "yuka"){
-     echo "私はあなたの名前です。";
+if($name = "hoshiyuka"){
+     echo "私はhoshiyukaです。";
 }else{
     echo "あなたの名前ではありません。";
 }
@@ -15,11 +15,7 @@ if($name = "yuka"){
 <?php
 
 $total = 0;
-echo $total;
-?>
 
-<br>
-<?php
 for ($i = 0; $i <= 10000; $i++){
     $total += $i;
 }
@@ -33,8 +29,8 @@ echo $total;
 
 $fruits = array("orange", "peach", "pair", "banana", "apple");
 
-foreach($fruits as $fruits){
-    echo "要素は" . $fruits;
+foreach($fruits as $fruit){
+    echo "要素は" . $fruit;
     echo "\n";
 }
 
