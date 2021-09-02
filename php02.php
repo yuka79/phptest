@@ -2,9 +2,9 @@
 
 $name = "hoshiyuka";
 
-if($name = "hoshiyuka"){
+if ($name == "hoshiyuka") {
      echo "私はhoshiyukaです。";
-}else{
+} else {
     echo "あなたの名前ではありません。";
 }
 
